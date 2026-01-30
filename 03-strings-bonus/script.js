@@ -11,7 +11,7 @@ console.log(cityIndex); // Output: 4
 
 // 2. Sottostringhe 
 // Stampa la sottostringa "York" dalla variabile city
-const citySubstring = '';
+const citySubstring = city.split(' ')[1];
 console.log(citySubstring); // Output: "York"
 
 // 3. Sostituzione
